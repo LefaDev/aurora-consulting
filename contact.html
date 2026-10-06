@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | AURORA Consulting</title>
+  <link rel="icon" type="image/png" href="assets/Aurora Logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Inter+Tight:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aurora-shared.css">
+  <style>
+    .contact-field {
+      width: 100%;
+      background: var(--white);
+      border: 1px solid rgba(0,0,0,0.15);
+      padding: 16px;
+      font-family: var(--font-body);
+      font-size: 15px;
+      color: var(--dark);
+      border-radius: var(--radius-sm);
+      transition: border-color 0.2s ease;
+      margin-top: 8px;
+      margin-bottom: 24px;
+    }
+    .contact-field:focus {
+      border-color: var(--primary);
+      outline: none;
+    }
+    .contact-label {
+      display: block;
+      font-family: var(--font-tight);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--dark);
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Navigation ────────────────────────────────────────── -->
+<header class="nav" role="banner">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html" aria-label="Aurora Consulting home">
+      <img src="assets/Aurora Logo.png" alt="Aurora Consulting">
+      <span class="nav-logo-text">Aurora Consulting</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="talent-advisory.html">Talent Advisory</a></li>
+        <li><a href="value-prop.html">Value Prop</a></li>
+        <li><a href="relations.html">Relations</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-primary btn-sm">Contact Us</a>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="material-symbols-outlined" style="font-size:28px">menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ── Mobile Menu ────────────────────────────────────────── -->
+<div id="mobile-menu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">
+    <span class="material-symbols-outlined" style="font-size:32px">close</span>
+  </button>
+  <a href="index.html">Home</a>
+  <a href="talent-advisory.html">Talent Advisory</a>
+  <a href="value-prop.html">Value Prop</a>
+  <a href="relations.html">Relations</a>
+  <a href="contact.html" class="btn btn-primary" style="margin-top:16px">Contact Us</a>
+</div>
+
+<!-- ── Hero ──────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="https://as2.ftcdn.net/v2/jpg/20/47/13/23/1000_F_2047132337_DEaReMAI5gOd29qIxiHPTI2lwexXKeHo.jpg" alt="">
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="reveal">
+      <span class="hero-eyebrow">Connect</span>
+      <h1 class="hero-title">Contact Us</h1>
+      <p class="hero-sub">
+        Partner with Aurora Consulting to optimize human capital. Contact our executive team today.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact-details" class="btn btn-primary btn-lg">Contact Details</a>
+        <a href="#contact-form-section" class="btn btn-outline-light btn-lg">Send Message</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Contact Main Section ──────────────────────────────── -->
+<section id="contact-details" class="section stripe-light">
+  <div class="container">
+    <div class="contact-grid">
+      
+      <!-- Details Column (Left) -->
+      <div class="reveal" style="display:flex; flex-direction:column; gap:40px;">
+        <div>
+          <span class="eyebrow">Get In Touch</span>
+          <h2 class="headline" style="margin-top:12px; margin-bottom:20px;">Contact Details</h2>
+          <p class="body-md" style="color:var(--mid);">
+            Aurora Business Consulting is a leading recruitment firm that specialises in helping companies find top talent for their organisations. We offer a range of services, including executive search, temporary staffing, and permanent placement. Our team of experienced recruiters has a deep understanding of the job-market and is able to identify the best fit for your corporate requirements.
+          </p>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:24px;">
+          <!-- Telephone -->
+          <div style="display:flex; gap:16px; align-items:flex-start;">
+            <span class="material-symbols-outlined" style="font-size:28px; color:var(--primary); padding-top:2px;">phone_in_talk</span>
+            <div>
+              <h4 style="font-family:var(--font-tight); font-size:12px; font-weight:700; text-transform:uppercase; color:var(--dark); letter-spacing:0.05em; margin-bottom:4px;">Telephone</h4>
+              <p style="font-size:15px; color:var(--mid);">+27 66 060 9487</p>
+            </div>
+          </div>
+          
+          <!-- Email -->
+          <div style="display:flex; gap:16px; align-items:flex-start;">
+            <span class="material-symbols-outlined" style="font-size:28px; color:var(--primary); padding-top:2px;">mail</span>
+            <div>
+              <h4 style="font-family:var(--font-tight); font-size:12px; font-weight:700; text-transform:uppercase; color:var(--dark); letter-spacing:0.05em; margin-bottom:4px;">Email Address</h4>
+              <p style="font-size:15px; color:var(--mid);">
+                <a href="mailto:hello@aurora-consulting.co.za" style="color:var(--mid); text-decoration:none;" onmouseover="this.style.color='var(--primary)'" onmouseout="this.style.color='var(--mid)'">hello@aurora-consulting.co.za</a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Physical Address -->
+          <div style="display:flex; gap:16px; align-items:flex-start;">
+            <span class="material-symbols-outlined" style="font-size:28px; color:var(--primary); padding-top:2px;">location_on</span>
+            <div>
+              <h4 style="font-family:var(--font-tight); font-size:12px; font-weight:700; text-transform:uppercase; color:var(--dark); letter-spacing:0.05em; margin-bottom:4px;">Office Address</h4>
+              <p style="font-size:15px; color:var(--mid);">Witkoppen Rd, Fourways, Johannesburg, 2055</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Map Embedded -->
+        <div style="border:1px solid rgba(0,0,0,0.1); height:300px; width:100%; border-radius:var(--radius-md); overflow:hidden;">
+          <iframe 
+            title="Aurora Consulting Location Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14343.344400588691!2d27.9944!3d-26.0123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957388cfc846bf%3A0xe54d9b4bfa4f1f58!2sFourways%2C%20Sandton%2C%202055!5e0!3m2!1sen!2sza!4v1719280000000!5m2!1sen!2sza" 
+            style="width:100%; height:100%; border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Form Column (Right) -->
+      <div id="contact-form-section" class="reveal reveal-delay-2" style="background:var(--light); padding:48px 40px; border-left:4px solid var(--primary); border-radius:var(--radius-md);">
+        <h3 style="font-family:var(--font-display); font-size:28px; font-weight:600; color:var(--dark); margin-bottom:32px;">Send Us A Message</h3>
+        
+        <form id="contact-form">
+          <div>
+            <label class="contact-label" for="form-name">Name</label>
+            <input class="contact-field" type="text" id="form-name" required placeholder="YOUR FULL NAME">
+          </div>
+          <div>
+            <label class="contact-label" for="form-email">Email Address</label>
+            <input class="contact-field" type="email" id="form-email" required placeholder="YOUR EMAIL ADDRESS">
+          </div>
+          <div>
+            <label class="contact-label" for="form-subject">Subject</label>
+            <input class="contact-field" type="text" id="form-subject" required placeholder="MESSAGE SUBJECT">
+          </div>
+          <div>
+            <label class="contact-label" for="form-message">Type your message here</label>
+            <textarea class="contact-field" id="form-message" required placeholder="Type your message here..." style="height:150px; resize:none;"></textarea>
+          </div>
+          
+          <button class="btn btn-primary btn-lg w-full" type="submit">Submit</button>
+        </form>
+
+        <div id="form-success" style="display:none; background:var(--dark); color:var(--white); padding:24px; border-left:4px solid var(--primary); border-radius:var(--radius-sm); margin-top:16px;">
+          <h4 style="font-family:var(--font-display); font-size:20px; font-weight:600; margin-bottom:8px;">Message Sent</h4>
+          <p style="font-size:14px; color:rgba(255,255,255,0.8); line-height:1.6;">Thank you for your message! Our strategic advisory team will review your inquiry and get back to you shortly.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA Block ─────────────────────────────────────────── -->
+<section class="section stripe-black">
+  <div class="container text-center">
+    <div class="reveal" style="max-width:800px; margin:0 auto; display:flex; flex-direction:column; align-items:center; gap:24px; text-align:center;">
+      <span class="eyebrow" style="color:var(--primary-light)">South Africa Presence</span>
+      <h2 style="font-family:var(--font-display); font-size:clamp(32px, 5vw, 56px); font-weight:600; color:var(--white); line-height:1.1;">Providing National Staffing Coverage</h2>
+      <p style="font-size:18px; color:rgba(255,255,255,0.7); max-width:600px; line-height:1.65; margin-bottom:16px;">
+        Servicing corporate entities and state organisations across South Africa. Partner with us to scale your operations.
+      </p>
+      <a href="mailto:hello@aurora-consulting.co.za" class="btn btn-primary btn-lg">Email Executive Team</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="assets/Aurora Logo.png" alt="Aurora Consulting" style="height:44px; width:auto; object-fit:contain; display:block; margin-bottom:4px;">
+      <p class="tagline">Building bridges between high-caliber talent and visionary organisations.</p>
+      <div style="margin-top:20px; display:flex; gap:12px; align-items:center;">
+        <a href="#" class="footer-badge" aria-label="View LinkedIn profile">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <span class="footer-badge">Level 1 BBBEE</span>
+      </div>
+    </div>
+    <div style="display:flex; gap:64px; flex-wrap:wrap;">
+      <div class="footer-links-col">
+        <h5>Navigation</h5>
+        <a href="index.html">Home</a>
+        <a href="talent-advisory.html">Talent Advisory</a>
+        <a href="value-prop.html">Value Prop</a>
+        <a href="relations.html">Relations</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-links-col">
+        <h5>Legal</h5>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">POPIA Compliance</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2026 Aurora Consulting Pty Ltd. All rights reserved.</p>
+    <p class="footer-copy">Registered in South Africa.</p>
+  </div>
+</footer>
+
+<script>
+// ── Mobile Menu ──────────────────────────────────────────────
+const menuBtn  = document.getElementById('mobile-menu-btn');
+const closeBtn = document.getElementById('mobile-menu-close');
+const mobileMenu = document.getElementById('mobile-menu');
+
+function openMenu() {
+  mobileMenu.classList.add('open');
+  menuBtn.setAttribute('aria-expanded', 'true');
+  document.body.style.overflow = 'hidden';
+}
+function closeMenu() {
+  mobileMenu.classList.remove('open');
+  menuBtn.setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+}
+function toggleMenu() {
+  if (mobileMenu.classList.contains('open')) {
+    closeMenu();
+  } else {
+    openMenu();
+  }
+}
+
+if (menuBtn) menuBtn.addEventListener('click', toggleMenu);
+if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+
+// ── Contact Form Submission ──────────────────────────────────
+const contactForm = document.getElementById('contact-form');
+const successMsg = document.getElementById('form-success');
+
+if (contactForm && successMsg) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    contactForm.style.display = 'none';
+    successMsg.style.display = 'block';
+  });
+}
+
+// ── Scroll Reveal ────────────────────────────────────────────
+const revealEls = document.querySelectorAll('.reveal');
+const revealObs = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObs.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+revealEls.forEach(el => revealObs.observe(el));
+</script>
+
+</body>
+</html>
